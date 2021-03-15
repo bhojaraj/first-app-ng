@@ -1,0 +1,17 @@
+<div>
+  <app-cockpit
+    (serverCreated)="onServerAdded($event)"
+    (bpCreated)="onBlurprintAdded($event)"
+  >
+  </app-cockpit>
+  <hr />
+  <div class="row">
+    <div class="col-xs-12">
+      <app-server-element
+        *ngFor="let serverElement of serverElements"
+        [cdbSrvElement]="serverElement"
+      >
+      </app-server-element>
+    </div>
+  </div>
+</div>

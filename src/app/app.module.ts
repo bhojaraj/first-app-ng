@@ -7,6 +7,9 @@ import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
+import { CockpitComponent } from './comp-data-binding/cockpit/cockpit.component';
+import { ServerElementComponent } from './comp-data-binding/server-element/server-element.component';
+import { CompDataBindingComponent } from './comp-data-binding/comp-data-binding.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
     ServerComponent,
     ServersComponent,
     SuccessAlertComponent,
-    WarningAlertComponent
+    WarningAlertComponent,
+    CockpitComponent,
+    ServerElementComponent,
+    CompDataBindingComponent
   ],
   imports: [BrowserModule, FormsModule, HttpClientModule],
   providers: [],

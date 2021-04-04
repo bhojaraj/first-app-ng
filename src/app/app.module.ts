@@ -10,6 +10,7 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { CockpitComponent } from './comp-data-binding/cockpit/cockpit.component';
 import { ServerElementComponent } from './comp-data-binding/server-element/server-element.component';
 import { CompDataBindingComponent } from './comp-data-binding/comp-data-binding.component';
+import { NumbersComponent } from './numbers/numbers.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CompDataBindingComponent } from './comp-data-binding/comp-data-binding.
     WarningAlertComponent,
     CockpitComponent,
     ServerElementComponent,
-    CompDataBindingComponent
+    CompDataBindingComponent,
+    NumbersComponent
   ],
   imports: [BrowserModule, FormsModule, HttpClientModule],
   providers: [],
